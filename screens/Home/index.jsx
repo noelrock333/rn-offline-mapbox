@@ -17,6 +17,10 @@ const Home = () => {
         title="Ver Mapa"
         onPress={() => navigation.navigate('Map')}
       />
+      <Button
+        title="Tomar Fotos"
+        onPress={() => navigation.navigate('TakePhotos')}
+      />
     </View>
   );
 };
