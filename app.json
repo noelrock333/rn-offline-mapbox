@@ -27,6 +27,12 @@
     },
     "plugins": [
       [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      [
         "@rnmapbox/maps",
         {
           "RNMapboxMapsVersion": "10.1.31"

@@ -1,3 +1,4 @@
+import "expo-dev-client";
 import React from 'react';
 import { Provider } from 'react-redux';
 import { ReduxNetworkProvider } from 'react-native-offline';
@@ -6,6 +7,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import store from './store';
 import Home from './screens/Home';
 import Map from './screens/Map';
+import 'react-native-gesture-handler';
 
 const Stack = createStackNavigator();
 
